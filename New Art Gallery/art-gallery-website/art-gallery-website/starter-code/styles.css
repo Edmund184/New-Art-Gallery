@@ -1,62 +1,196 @@
 * {
     box-sizing: border-box;
-    
+    margin:0;
+    padding: 0;  
   }
-.main-sec{
+/*img{
+    max-width: 100%;
+}*/
+.title-container{
     display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    width: 1275px;  
     margin-left: 20px;
-}
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+    
+} 
 .title{
-    background-color: black;
-    color:white;
-    margin-right: 10px; 
-   font-family: Big Shoulders Display;
-   font-size: 96px;
-   text-transform: uppercase; 
-
-}
-.main-des{
-    font-family: Outfit;
-    font-size: 22px;
-    text-align: justify;
-    line-height: 32px;
-    font-style: normal;
-    height: 160px;
-}
-h2{
-    font-family: Big Shoulders Display;
-    font-size: 40px;
-    font-weight: 900px; 
-    color: black;
+    background-color: #151515;;
+    color: white;
     text-transform: uppercase;
+  font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    font-family:'Big shoulders Display';
+    
+    width: 450px;
+    height: 799px;
+    display: flex;
+    align-items: center;
+
+    
 }
-p{
-    font-family: Outfit;   
+#hero{
+    min-height: 400px;
+    max-width: max-content;
+   margin-right:-50px;
+   margin-left: 20px;
+  
+}
+
+.main-des{
+    font-family: outfit;
+    height: 150px;
+    width: 350px;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.button{
+display: block;
+cursor: pointer;
+}
+.fst_btn{
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    color:#FFFFFF;
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 3.63636px;
+border: none;
+outline: 0;
+}
+.snd-btn{
+    height: 72px;
+    width: 56px; 
+    border: none;
+outline: 0;
+background-color: #D5966C;
+margin-left: -10px;
+padding-bottom: 5px;
+}
+.fst_btn:hover{
+background-color: #D5966C;
+}
+.snd-btn:hover{
+    background-color: #151515;
+}
+.body{
+   /* height: 1150;
+    width: 1110; */
+    margin: 0 auto;
 }
 .body-sec{
     display: flex;
-    margin-top: 20px;
-   
 }
 .body-des{
-text-align: justify;
-width:350px;
-height:280px;
-margin-right: 20px;
+    height: 280px;
+    width: 350px;
+    margin-bottom:100px;
 }
-.body{
-    margin-left:150px;
-    margin-top: 90px;
+.des{
+font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+color: #151515;
 }
+.des-des{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+}
+.first-img{
+    margin-left: 150px;
+}
+/*second part of main section */
 .body-scnd{
-    display: flex; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+    display: flex;
+    margin-top: 30px;
 }
 .body-third{
-    margin-left:45px;
+    margin:0 50px;
 }
+.scnd-des{
+    margin: 25px 0 ;
+    height: 377px;
+    width: 445px;
+    background-color: #151515;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.scnd-des h2{
+font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+/*display: flex;
+align-items: center; */
+text-align: center;
+justify-content: center;
+}
+.scnd-des p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+}
+.footer{
+    background-color: #151515;
+   /* width: 1350px;
+    height: 244px; */
+    color: #FFFFFF;
+}
+.footer div{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+   }
+   .footer h3{
+    width: 160px;
+    height: 58px;
+   }
+   .footer p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+width: 430px;
+height: 84px;
+margin: 70px;
+padding: 20px;
+   }
+   .footer svg{
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    
+   }
+   .footer a{
+    fill: #FFFFFF;
+   }
+  .footer a:hover{
+    fill: #D5966C;
+   }
+   
+   
