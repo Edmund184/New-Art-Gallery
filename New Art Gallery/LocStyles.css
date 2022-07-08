@@ -13,7 +13,7 @@ top: 0px;
    
     }
     div img{
-        max-width: 100%;
+        width: 100%;
     }
     .fst_btn{
      width: 204px;
@@ -61,6 +61,8 @@ font-size: 70px;
 line-height: 70px;
 text-transform: uppercase;
 color: #FFFFFF;
+width: 350px;
+height: 140px;
     }
     .address h3{
 font-family: 'Big Shoulders Display';
@@ -79,14 +81,55 @@ font-weight: 300;
 font-size: 22px;
 line-height: 32px;
 color: #FFFFFF;
+margin: 20px;
+}
+.address-des{
+    height: 128px;
+    width: 540px;
+}
+footer{
+    background-color: #D5966C;
+   width: 100%;
+    height: 244px; 
+    color: #151515;
+    display: flex;
+    
+    justify-items: center;
+    align-items: center;
+    
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 
-    }
-    footer{
-        background-color: #D5966C;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 244px;  
-    }
+   } 
+  /* .footer h3{
+    width: 160px;
+    height: 58px;
+   } */
+   footer p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+width: 430px;
+height: 84px;
+margin: 70px;
+padding: 20px;
+   }
+   footer svg{
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    
+   }
+   footer a{
+    fill: #151515;
+   }
+  footer a:hover{
+    fill: #FFFFFF;
+   } 
+   
